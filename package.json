@@ -1,0 +1,21 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "A simple CRUD application with node js, mongodb,mongoose and postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Rakib Raihan Fahim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22",
+    "pdfkit": "^0.13.0",
+    "xlsx": "^0.18.5"
+  }
+}
